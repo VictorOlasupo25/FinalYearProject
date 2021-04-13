@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".InsertData">
+
+    <TextView
+        android:id="@+id/DisplayUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dip" />
+
+    <Button
+        android:id="@+id/inseritem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimary"
+        android:elevation="10px"
+        android:padding="12dp"
+        android:text="Insert Item"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/viewItems"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimary"
+        android:elevation="10px"
+        android:padding="12dp"
+        android:text="View Items"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/RemoveItems"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimary"
+        android:elevation="10px"
+        android:padding="12dp"
+        android:text="Remove Items"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/CheckOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimary"
+        android:elevation="10px"
+        android:padding="12dp"
+        android:text="Check Out"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
