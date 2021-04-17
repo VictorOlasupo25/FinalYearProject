@@ -1,5 +1,7 @@
 package com.victorolasupo.assignment4;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
@@ -45,5 +47,39 @@ public class ViewItemsData extends AppCompatActivity {
                 Toast.makeText(com.diroidd.app.shopping.ViewItemsData.this, itemName + "\n" + itemPrice, Toast.LENGTH_SHORT).show();
             }
         });
+
+        progressDialog = new ProgressDialog(MainActivity.this,
+                R.style.AppTheme_Dark_Dialog);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Checking Record...");
+        progressDialog.show();
+
+        email = emaillogin.getText().toString();
+        password = passwordlogin.getText().toString();
+//        Toast.makeText(this, email+password+"", Toast.LENGTH_SHORT).show();
+        // TODO: Implement your own authentication logic here.
+
+        new android.os.Handler().postDelayed(
+                new Runnable() {
+                    public void run() {
+                        // On complete call either onLoginSuccess or onLoginFailed
+
+                        LOGIN.setEnabled(true);
+                        if (db.Authenticate(email, password) == true) {
+                            Toast.makeText(MainActivity.this, "Login Successfully", Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(MainActivity.this, InsertData.class);
+                            intent.putExtra("getname",email);
+                            startActivity(intent);
+                            progressDialog.dismiss();
+                        } else {
+                            progressDialog.dismiss();
+                            Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_LONG).show();
+                        }
+
+                        // onLoginFailed();
+
+                    }
+                }, 2000);
+    }
     }
 }
