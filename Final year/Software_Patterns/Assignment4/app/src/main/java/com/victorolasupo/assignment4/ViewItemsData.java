@@ -79,6 +79,11 @@ public class ViewItemsData extends AppCompatActivity {
                         // onLoginFailed();
 
                     }
+
+                    listView = findViewById(R.id.listviewmain);
+                    textView = findViewById(R.id.textv);
+                    databased = new database(com.diroidd.app.shopping.ViewItemsData.this);
+                    data = da
                 }, 2000);
     }
     }
