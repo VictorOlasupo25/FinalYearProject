@@ -23,8 +23,7 @@ public class InsertData extends AppCompatActivity {
         ViewItems = findViewById(R.id.viewItems);
         RemoveItems=findViewById(R.id.RemoveItems);
         CheckOut=findViewById(R.id.CheckOut);
-        DisplayName.setText(getName);
-        Insertitem.setOnClickListener(new View.OnClickListener() {
+        DisplayName.setText(getName);nsertitem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(com.diroidd.app.shopping.InsertData.this, InsertItemsToList.class));
@@ -48,6 +47,13 @@ public class InsertData extends AppCompatActivity {
                 startActivity(new Intent(com.diroidd.app.shopping.InsertData.this, CheckOut.class));
             }
         });
+
+        Insertitem = findViewById(R.id.inseritem);
+        ViewItems = findViewById(R.id.viewItems);
+        RemoveItems=findViewById(R.id.RemoveItems);
+        CheckOut=findViewById(R.id.CheckOut);
+
+        inseritem
     }
 
 }
