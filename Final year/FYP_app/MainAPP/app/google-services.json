@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "869136328089",
+    "firebase_url": "https://istammerapp.firebaseio.com",
+    "project_id": "istammerapp",
+    "storage_bucket": "istammerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869136328089:android:f578eb6e073bd477135f08",
+        "android_client_info": {
+          "package_name": "com.example.streamer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869136328089-cak1kk9ieo9jmfln780d1ti30tav3efp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbQ06Zk5eZTAIlK9Zd856pKn4IglO-fJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869136328089-cak1kk9ieo9jmfln780d1ti30tav3efp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:maxWidth="300dp"
+        android:id="@+id/leftMessage"
+        android:textSize="16sp"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:background="@drawable/chat_item_left_bg"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="15dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/leftImageCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        app:cardElevation="1dp"
+        android:translationZ="0dp"
+        android:visibility="gone"
+       >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="300dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/leftImageView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/leftImageText"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:gravity="start|center"
+                android:textColor="@color/black"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/leftAudioCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        app:cardElevation="1dp"
+        android:translationZ="0dp"
+        android:visibility="visible"
+        android:layout_marginEnd="50dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/audio_layout"
+            android:background="@color/dim_background"
+            >
+
+            <SeekBar
+                android:id="@+id/leftSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/leftPlayBtn"
+                />
+            <ImageView
+                android:id="@+id/leftPlayBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="stop"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_play" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.streamer">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Streamer">
+
+
+
+        <activity android:name=".ChatsActivity"/>
+        <activity android:name=".TherapistsActivity"/>
+        <activity android:name=".MessagesActivity" >
+
+            <intent-filter>
+                <action android:name="OPEN_MESSAGES_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".UsersActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".CommunityActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+		
+		  <activity android:name=".readAactivities.RecordingsList" android:label="Recording Lists"/>
+        <activity android:name=".readAactivities.UploadVoiceActivity" android:label="Reading Practice "/>
+        <activity android:name=".readAactivities.ButtonScreen" />
+        <activity android:name=".readAactivities.M10" />
+        <activity android:name=".readAactivities.M9" />
+        <activity android:name=".readAactivities.M8" />
+        <activity android:name=".readAactivities.M7" />
+        <activity android:name=".readAactivities.M6" />
+        <activity android:name=".readAactivities.M5" />
+        <activity android:name=".readAactivities.M4" />
+        <activity android:name=".readAactivities.M3" />
+        <activity android:name=".readAactivities.M2" />
+        <activity android:name=".readAactivities.M1" />
+        <activity android:name=".readAactivities.C10" />
+        <activity android:name=".readAactivities.C9" />
+        <activity android:name=".readAactivities.C8" />
+        <activity android:name=".readAactivities.C7" />
+        <activity android:name=".readAactivities.C6" />
+        <activity android:name=".readAactivities.C5" />
+        <activity android:name=".readAactivities.C4" />
+        <activity android:name=".readAactivities.C3" />
+        <activity android:name=".readAactivities.C2" />
+        <activity android:name=".readAactivities.C1" />
+        <activity android:name=".readAactivities.D10" />
+        <activity android:name=".readAactivities.D9" />
+        <activity android:name=".readAactivities.D8" />
+        <activity android:name=".readAactivities.D7" />
+        <activity android:name=".readAactivities.D6" />
+        <activity android:name=".readAactivities.D5" />
+        <activity android:name=".readAactivities.D4" />
+        <activity android:name=".readAactivities.D3" />
+        <activity android:name=".readAactivities.D2" />
+        <activity android:name=".readAactivities.D1" />
+        <activity android:name=".readAactivities.bThirteen" />
+        <activity android:name=".readAactivities.bTwelve" />
+        <activity android:name=".readAactivities.bEleven" />
+        <activity android:name=".readAactivities.bTen" />
+        <activity android:name=".readAactivities.bNine" />
+        <activity android:name=".readAactivities.bEight" />
+        <activity android:name=".readAactivities.bSeven" />
+        <activity android:name=".readAactivities.bSix" />
+        <activity android:name=".readAactivities.bFive" />
+        <activity android:name=".readAactivities.bFour" />
+        <activity android:name=".readAactivities.bThree" />
+        <activity android:name=".readAactivities.bTwo" />
+        <activity android:name=".readAactivities.bOne" />
+        <activity android:name=".readAactivities.readADashboard"/>
+		 <activity android:name=".Conversations"/>
+        <activity android:name=".Doctor" />
+        <activity android:name=".Emergency" />
+        <activity android:name=".Transport" />
+        <activity android:name=".General" />
+        <activity android:name=".PanelInterview" />
+        <activity android:name=".JobInterview" />
+        <activity android:name=".ScenariosHome"/>
+        <activity android:name=".DAFActivity"/>
+		
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <provider
+            android:name=".utils.MyFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+
+        <service
+            android:name=".Utility.MyFirebaseMessagingService"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>

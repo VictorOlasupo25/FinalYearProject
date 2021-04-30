@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Streamer</string>
+    <string name="dont_have_an_account">Dont have an account? <font color='#6D31A3'>Sign up</font></string>
+    <string name="already_have_an_account">Already have an account? <font color='#6D31A3'>Sign in</font></string>
+    <string name="privacy_plloicy">By signing in you accept our <u> <font color='#000'>Term of use</font></u>  and
+        <u><font color='#000'> Privacy Policy </font> </u></string>
+    <string name="read_loud">Application options that will help you feel confident in everyday communication.</string>
+    <string name="scenario">Train and challenge yourself for real-life situations with video scenarios in regard to your purpose and needs</string>
+    <string name="daf">Achieve slower, more fluent speech by using our Delayed Auditory Feedback</string>
+    <string name="community">Connect with other IStammer users in our ISTAMMER Social feed</string>
+    <string name="recording_text">Press and hold the mic button to start the recording</string>
+    <string name="basicSound1">A series of picture word letters with pronunciation for early stage speech development</string>
+    <string name="basicSound2"> Read content on the screen while recording feedback </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="open_weather_api">http://api.openweathermap.org/data/2.5/weather?q=</string>
+    <string name="open_weather_api_kay">3fb63fd6585c30f103d4424b89428d66</string>
+    <string name="loading">Loading…</string>
+
+    <!--    menu -->
+    <string name="all_posts">All Posts</string>
+    <string name="Profile">Profile</string>
+    <string name="my_posts">Posts</string>
+    <string name="current_location">Current Location</string>
+    <string name="weather_search">Weather search</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="button_add_new_post">Add new post</string>
+    <string name="all_user_post">All users posts</string>
+    <string name="user_login">User login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="button_login">Login</string>
+    <string name="sign_up">Please SignUp</string>
+    <string name="no_account">Don\'t have an account?</string>
+
+    <string name="city_name">City Name</string>
+    <string name="country_name">Country Name</string>
+    <string name="temp">Temp</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="hint_search_weather">Enter City Name</string>
+    <string name="please_login">Please Login</string>
+    <string name="have_account">Have account ?</string>
+    <string name="register">Register</string>
+    <string name="user_register">User registration</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_submit">Submit</string>
+    <string name="enter_caption">Enter caption</string>
+    <string name="please_wait_loading_data">Please Wait  Loading Data</string>
+    <string name="empty_response">No Posts Found in the data base</string>
+    <string name="submit">Add new post</string>
+    <string name="phone">Phone number</string>
+    <string name="update_profile">Update profile</string>
+    <string name="new_password">New password (optional)</string>
+    <string name="old_password">Old password</string>
+    <string name="update">Update</string>
+    <string name="search_user">Search users</string>
+    <string name="write_message">Write message</string>
+    <string name="therapists_profile">Therapists profile</string>
+    <string name="name">Name</string>
+
+
+    <string name="btn">btn</string>
+    <string name="bee">Bee</string>
+    <string name="back">Back</string>
+    <string name="ball">Ball</string>
+    <string name="bat">Bat</string>
+    <string name="beak">Beak</string>
+    <string name="bear">Bear</string>
+    <string name="bed">Bed</string>
+    <string name="bell">Bell</string>
+    <string name="bike">Bike</string>
+    <string name="bin">Bin</string>
+    <string name="bone">Bone</string>
+    <string name="book">Book</string>
+    <string name="boy">Boy</string>
+    <string name="bus">Bus</string>
+
+    <string name="cabin">Cabin</string>
+    <string name="cabinet">Cabinet</string>
+    <string name="calculator">Calculator</string>
+    <string name="camel">Camel</string>
+    <string name="camera">Camera</string>
+    <string name="caravan">Caravan</string>
+    <string name="carraige">Carriage</string>
+    <string name="circle">Circle</string>
+    <string name="coat">Coat</string>
+    <string name="computer">Computer</string>
+
+    <string name="daisy">Daisy</string>
+    <string name="dawn">Dawn</string>
+    <string name="deer">Deer</string>
+    <string name="dice">Dice</string>
+    <string name="dirt">Dirt</string>
+    <string name="dog">Dog</string>
+    <string name="doll">Doll</string>
+    <string name="dove">Dove</string>
+    <string name="duck">Duck</string>
+    <string name="door">Door</string>
+
+    <string name="magic">Magic</string>
+    <string name="mail">Mail</string>
+    <string name="mat">Mat</string>
+    <string name="meal">Meal</string>
+    <string name="medal">Medal</string>
+    <string name="money">Money</string>
+    <string name="monkey">Monkey</string>
+    <string name="moon">Moon</string>
+    <string name="mouse">Mouse</string>
+    <string name="mouth">Mouth</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="previous">PREVIOUS</string>
+
+
+    <string-array name="questions">
+        <item>One on One</item>
+        <item>Panel</item>
+    </string-array>
+
+    <string-array name="questions1">
+        <item>General</item>
+        <item>Transport</item>
+    </string-array>
+
+    <string-array name="questions2">
+        <item>Emergency</item>
+        <item>Doctor</item>
+    </string-array>
+
+    <string-array name="questions3">
+        <item>Conversations</item>
+        <item>Queries</item>
+    </string-array>
+
+
+    <string name="status_start">Already started</string>
+    <string name="status_stop">Stopped</string>
+    <string name="active">Active</string>
+    <string name="stop">Stopped</string>
+    <string name="time_unit">ms</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="delay_time">Delay Time</string>
+    <string name="echo">Echo</string>
+    <string name="volume">Volume</string>
+    <string name="noise">Background Noise Reduction</string>
+    <string name="paragraph_text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.  Lorem ipsum is typically a corrupted version of \'De finibus bonorum et malorum\', a 1st century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.  Versions of the Lorem ipsum text have been used in typesetting at least since the 1960s, when it was popularized by advertisements for Letraset transfer sheets.[1] Lorem ipsum was introduced to the digital world in the mid-1980s, when Aldus employed it in graphic and word-processing templates for its desktop publishing program PageMaker. Other popular word processors, including Pages and Microsoft Word, have since adopted Lorem ipsum,[2] as have many LaTeX packages,[3][4] [5] web content managers such as Joomla! and WordPress, and CSS libraries such as Semantic UI.[6]
+    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.  Lorem ipsum is typically a corrupted version of \'De finibus bonorum et malorum\', a 1st century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.  Versions of the Lorem ipsum text have been used in typesetting at least since the 1960s, when it was popularized by advertisements for Letraset transfer sheets.[1] Lorem ipsum was introduced to the digital world in the mid-1980s, when Aldus employed it in graphic and word-processing templates for its desktop publishing program PageMaker. Other popular word processors, including Pages and Microsoft Word, have since adopted Lorem ipsum,[2] as have many LaTeX packages,[3][4] [5] web content managers such as Joomla! and WordPress, and CSS libraries such as Semantic UI.[6]</string>
+
+</resources>
