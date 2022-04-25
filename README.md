@@ -1,1 +1,2 @@
-# FinalYearProject
+Stammering (or stuttering) is a multifactorial speech disorder affecting approximately 1% of the worldwide population. It is caused by regular disruptions in the natural flow of speech from repetitions of a word or sound.
+This mobile application aims to  serve as an everyday support system for people who suffer from speech impediment with self-management tools that will help build confidence and reliability in their speech. It is also designed to help therapists and other professionals interact with their clients and provide constant feedback.
